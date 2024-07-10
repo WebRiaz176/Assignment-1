@@ -52,6 +52,18 @@ body{
     color: white;
     border-radius: 5px;
 }
+.btn-1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-1:hover{
+    background-color: white;
+    color: #0D1321;
+    cursor: pointer;
+}
+
+
 /* Header-part-finished */
 
 /* Main-part-start */
@@ -422,43 +434,32 @@ body{
 /* main-part-finshed */
 
 /* footer-part-start */
-footer{
+#footer{
     background-color: #0D1321;
     height: 100px;
 }   
 .footer-part{
     width: 1000px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
-    margin-left: 145px;
-    
-    
 }
-
-
 .footer-title{
     color: white;
-    margin-left: 30px;
-    
+    word-spacing: 5px;
+}
+.font-part A {
+    padding: 0 10px;
+}
+.font-part img{
+    width: 30px;
+
 }
 
-.fa-brands{
-    font-size: 20px;
-    color:#0391ceec;
-    padding: 0 7px;
-    align-items: end;
-    
-    
-}
-.font-part{
-    margin-left: 50px;
-    
-}
 .github{
-    color: #d1daf1;
+    background-color: white;
+    border-radius: 50%;
 }
 
-.fa-brands:hover{
-    color: white;
-}
+/* footer-part-finished */
