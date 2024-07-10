@@ -21,13 +21,34 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 45px 0;
+    width: 850px;
+    margin: 0 auto;
     
 }
 .header-title{
     font-weight: 700;
+    padding: 15px 0;
+    font-size: 40px;
+    word-spacing: 20px;
+    text-align: center;
+    
+   
+}
+
+.header-para{
+    padding: 15px 0;
+    font-size: 18px;
+    text-align: center;
+    color: #0D1321;
+    
 }
 .btn-1{
-    color: black;
-    padding: 10px;
+    
+    padding: 10px 20px;
+    margin: 15px 0;
+    margin-right: 25px;
+    background-color: #0D1321;
+    color: white;
+    border-radius: 5px;
 }
