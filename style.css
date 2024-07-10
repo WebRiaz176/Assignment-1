@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.main-header-bg{
+    background-image: url("./assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    height: 600px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main-header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+}
+.header-title{
+    font-weight: 700;
+}
+.btn-1{
+    color: black;
+    padding: 10px;
+}
