@@ -54,6 +54,8 @@ body{
 }
 /* Header-part-finished */
 
+/* Main-part-start */
+
 .sec-part{
     width: 1000px;
     margin: 0 auto;
@@ -112,6 +114,11 @@ body{
     
 
 }
+.blog-btn-1:hover{
+    background-color: #0D1321;
+    color: white;
+    cursor: pointer;
+}
 
 
 
@@ -167,6 +174,13 @@ body{
 
 }
 
+.blog-btn-2:hover{
+    background-color: #0D1321;
+    color: white;
+    cursor: pointer;
+}
+
+
 
 
 .blog-part-2-img{
@@ -220,6 +234,11 @@ body{
 
 }
 
+.blog-btn-3:hover{
+    background-color: #0D1321;
+    color: white;
+    cursor: pointer;
+}
 
 
 .blog-part-3-img{
@@ -276,6 +295,10 @@ body{
     background-color: #fde5df;
 
 }
+.blog-btn-web:hover{
+    color: rgb(42, 42, 173);
+    cursor: pointer;
+}
 
 
 .css-blog{
@@ -306,6 +329,10 @@ body{
     text-decoration: underline;
     background-color: #b8ccf3;
 
+}
+.blog-btn-web-2:hover{
+    color: rgb(42, 42, 173);
+    cursor: pointer;
 }
 
 
@@ -339,6 +366,11 @@ body{
 
 }
 
+.blog-btn-web-3:hover{
+    color: rgb(42, 42, 173);
+    cursor: pointer;
+}
+
 .support-content{
     display: flex;
     justify-content: center;
@@ -363,10 +395,15 @@ body{
 #email{
     padding: 10px 90px;
     border-radius: 10px;
-    text-align: start;
     border: 1px solid rgb(40, 126, 211);
     text-align: left;
    
+}
+
+#email:hover{
+    background-color: #0D1321;
+    color: white;
+    cursor: pointer;
 }
 
 .submit-btn{
@@ -375,4 +412,53 @@ body{
     color: #0D1321;
     border: none;
     border-radius: 10px;
+}
+
+.submit-btn:hover{
+    color: white;
+    background-color: #0D1321;
+    cursor: pointer;
+}
+/* main-part-finshed */
+
+/* footer-part-start */
+footer{
+    background-color: #0D1321;
+    height: 100px;
+}   
+.footer-part{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-left: 145px;
+    
+    
+}
+
+
+.footer-title{
+    color: white;
+    margin-left: 30px;
+    
+}
+
+.fa-brands{
+    font-size: 20px;
+    color:#0391ceec;
+    padding: 0 7px;
+    align-items: end;
+    
+    
+}
+.font-part{
+    margin-left: 50px;
+    
+}
+.github{
+    color: #d1daf1;
+}
+
+.fa-brands:hover{
+    color: white;
 }
