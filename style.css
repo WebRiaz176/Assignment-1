@@ -54,7 +54,7 @@ body{
 }
 /* Header-part-finished */
 
-.sec-part1{
+.sec-part{
     width: 1000px;
     margin: 0 auto;
     
@@ -234,4 +234,145 @@ body{
     height: 200px;
     width: 400px;
 
+}
+
+.video-part iframe{
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+.web-part{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.html-blog{
+    margin-bottom: 100px;
+    background-color: #fde5df;
+    padding: 20px 20px;
+    border-radius: 10px;
+    width: 333.3333px;
+    margin-left: 20px;
+   
+}
+
+.html-blog img{
+    padding-bottom: 20px;
+}
+
+
+.html-blog h3{
+    padding-bottom: 10px;
+}
+
+.html-blog p{
+    padding-bottom: 10px;
+}
+
+.blog-btn-web{
+    border: none;
+    text-decoration: underline;
+    background-color: #fde5df;
+
+}
+
+
+.css-blog{
+    margin-bottom: 100px;
+    background-color: #b8ccf3;
+    padding: 20px 20px;
+    border-radius: 10px;
+    width: 333.33px;
+    margin-left: 20px;
+
+}
+
+.css-blog img{
+    padding-bottom: 20px;
+}
+
+
+.css-blog h3{
+    padding-bottom: 10px;
+}
+
+.css-blog p{
+    padding-bottom: 10px;
+}
+
+.blog-btn-web-2{
+    border: none;
+    text-decoration: underline;
+    background-color: #b8ccf3;
+
+}
+
+
+.js-blog{
+    margin-bottom: 100px;
+    background-color: #f0e6b6;
+    padding: 20px 20px;
+    border-radius: 10px;
+    width: 333.33px;
+    margin-left: 20px;
+
+}
+
+.js-blog img{
+    padding-bottom: 20px;
+}
+
+
+.js-blog h3{
+    padding-bottom: 10px;
+}
+
+.js-blog p{
+    padding-bottom: 10px;
+}
+
+.blog-btn-web-3{
+    border: none;
+    text-decoration: underline;
+    background-color: #f0e6b6;
+
+}
+
+.support-content{
+    display: flex;
+    justify-content: center;
+}
+
+
+.support-part{
+    background-image: url("./assets/handshake.jpg");
+    height: 300px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+
+.support-title{
+    color: white;
+}
+
+.support-para{
+    color: white;
+    padding-bottom: -30px;
+}
+#email{
+    padding: 10px 90px;
+    border-radius: 10px;
+    text-align: start;
+    border: 1px solid rgb(40, 126, 211);
+    text-align: left;
+   
+}
+
+.submit-btn{
+    padding: 10px 22px;
+    background-color: white;
+    color: #0D1321;
+    border: none;
+    border-radius: 10px;
 }
